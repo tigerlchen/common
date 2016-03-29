@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<AV_Response xmlns="http://www.okair.net">
+   <airways>
+      <FlightInformation>
+         <arr>test</arr>
+      </FlightInformation>
+      <FlightInformation>
+         <cabins>
+            <Cabin>
+               <adprice>ggg</adprice>
+            </Cabin>
+         </cabins>
+      </FlightInformation>
+   </airways>
+</AV_Response>
