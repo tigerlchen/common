@@ -3,9 +3,6 @@ package com.ccp.train;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * @author �г� [2015��10��2�� ����3:51:07]
- */
 @Getter
 @Setter
 public class PassengerDTO extends BaseDO {

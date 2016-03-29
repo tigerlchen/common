@@ -10,10 +10,6 @@ import java.io.Serializable;
 
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 
-/**
- * ����
- * @author �г�  [2015��4��15�� ����11:00:41]
- */
 public class BaseDO implements Serializable{
 
     private static final long serialVersionUID = 7497524947065819618L;

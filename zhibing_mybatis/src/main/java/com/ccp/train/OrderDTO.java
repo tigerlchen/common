@@ -5,9 +5,6 @@ import java.util.List;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * @author �г� [2015��5��7�� ����2:31:40]
- */
 @Getter
 @Setter
 public class OrderDTO extends BaseDO {

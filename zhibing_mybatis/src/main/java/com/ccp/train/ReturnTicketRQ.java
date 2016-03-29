@@ -3,9 +3,6 @@ package com.ccp.train;
 import lombok.Getter;
 import lombok.Setter;
 
-/**
- * @author �г� [2015��10��2�� ����4:09:49]
- */
 @Getter
 @Setter
 public class ReturnTicketRQ extends BaseDO{
