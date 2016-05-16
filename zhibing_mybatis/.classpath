@@ -42,4 +42,12 @@
   <classpathentry kind="var" path="M2_REPO/org/apache/httpcomponents/httpmime/4.2.3/httpmime-4.2.3.jar"/>
   <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6.jar" sourcepath="M2_REPO/commons-lang/commons-lang/2.6/commons-lang-2.6-sources.jar"/>
   <classpathentry kind="var" path="M2_REPO/org/projectlombok/lombok/1.14.8/lombok-1.14.8.jar" sourcepath="M2_REPO/org/projectlombok/lombok/1.14.8/lombok-1.14.8-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/taobao/train/ccp-imt/1.1.0-SNAPSHOT/ccp-imt-1.1.0-SNAPSHOT.jar" sourcepath="M2_REPO/com/taobao/train/ccp-imt/1.1.0-SNAPSHOT/ccp-imt-1.1.0-SNAPSHOT-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7.jar" sourcepath="M2_REPO/org/apache/velocity/velocity/1.7/velocity-1.7-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar" sourcepath="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/com/alibaba/toolkit/common/logging/logging/1.0/logging-1.0.jar" sourcepath="M2_REPO/com/alibaba/toolkit/common/logging/logging/1.0/logging-1.0-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.2/commons-beanutils-1.8.2.jar" sourcepath="M2_REPO/commons-beanutils/commons-beanutils/1.8.2/commons-beanutils-1.8.2-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/json-lib/json-lib/2.2.3/json-lib-2.2.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar" sourcepath="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1.jar" sourcepath="M2_REPO/commons-httpclient/commons-httpclient/3.1/commons-httpclient-3.1-sources.jar"/>
 </classpath>

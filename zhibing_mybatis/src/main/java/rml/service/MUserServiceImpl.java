@@ -7,6 +7,8 @@ import org.springframework.stereotype.Service;
 import rml.dao.MUserMapper;
 import rml.model.MUser;
 
+import com.alibaba.imt.annotation.Imt;
+
 @Service("muserService")
 public class MUserServiceImpl implements MUserServiceI{
 
@@ -46,6 +48,7 @@ public class MUserServiceImpl implements MUserServiceI{
 	}
 
 	@Override
+	@Imt(mehtodDescrption = "创建无单任务", group = {"管理器", " GoodsCheckTemplate"}, paramDescrption={"阿里ID","任务名称"})
 	public MUser selectByPrimaryKey(String id) {
 		
 		return muserMapper.selectByPrimaryKey(id);

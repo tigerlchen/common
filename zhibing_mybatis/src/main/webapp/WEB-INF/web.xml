@@ -31,7 +31,7 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>imtFilter</filter-name>
-		<url-pattern>/imt/*</url-pattern>
+		<url-pattern>/imt/imt.htm</url-pattern>
 	</filter-mapping>
 	
 	<servlet>
@@ -55,4 +55,25 @@
     	<welcome-file>index.htm</welcome-file>
     	<welcome-file>index.jsp</welcome-file>
   	</welcome-file-list>
+  	
+  	<servlet>
+		<servlet-name>ateye</servlet-name>
+		<servlet-class>com.alibaba.imt.servlet.AteyeServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ateye</servlet-name>
+		<url-pattern>/agent.ateye</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>imteye</servlet-name>
+		<servlet-class>com.alibaba.imt.web.servlet.ImtServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>imteye</servlet-name>
+		<url-pattern>/agent.imteye</url-pattern>
+	</servlet-mapping>
+	
+  	
 </web-app>
